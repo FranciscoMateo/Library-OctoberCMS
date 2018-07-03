@@ -1,0 +1,13 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Nombre
+        span: auto
+        type: text
+    surname:
+        label: Apellidos
+        span: auto
+        type: text
