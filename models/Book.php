@@ -26,11 +26,16 @@ class Book extends Model
      * @var array Relations
      */
     public $hasOne = [];
-    public $hasMany = [
-    	'author' => '\fmateo\library\models\author'
-    ];
+    public $hasMany = [];
     public $belongsTo = [];
-    public $belongsToMany = [];
+    public $belongsToMany = [
+	    'author' => [
+	    	'\fmateo\library\models\author',
+		    'table' => 'fmateo_library_book_author',
+		    'key'   => 'book_id',
+		    'otherKey' => 'author_id'
+		    ]
+    ];
     public $morphTo = [];
     public $morphOne = [];
     public $morphMany = [];

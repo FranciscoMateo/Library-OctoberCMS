@@ -1,9 +1,16 @@
 # ===================================
 #  Form Field Definitions
 # ===================================
-
-fields:
-    title:
-        label: Título
-        span: auto
-        type: text
+tabs:
+    fields:
+        title:
+            label: Título
+            span: auto
+            type: text
+            tab: Libro
+        author:
+            label: Autores
+            span: auto
+            path: $/fmateo/library/controllers/book/_relation_authors.htm
+            type: partial
+            tab: Autores

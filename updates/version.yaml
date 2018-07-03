@@ -1,6 +1,7 @@
 1.0.1:
     - Initialize plugin.
-1.0.2:
+1.0.5:
     - Initialize tables.
     - create_authors_table.php
     - create_books_table.php
+    - create_book_author_table.php

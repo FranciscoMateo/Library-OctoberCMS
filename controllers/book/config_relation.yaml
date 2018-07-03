@@ -1,0 +1,17 @@
+author:
+    label: Autor
+    view:
+        list: $/fmateo/library/models/author/columns.yaml
+        #toolbarButtons: create|add|remove
+        #toolbarPartial: relation_contact_toolbar
+        #defaultSort:
+            #column: first_name
+            #direction: asc
+    #manage:
+        #list: $/inmobiliarians/inmobiliaria/models/contact/columns_simple.yaml
+        #form: $/inmobiliarians/inmobiliaria/models/contact/fields.yaml
+        #showSearch: true
+        #showSorting: true
+        #defaultSort:
+            #column: first_name
+            #direction: asc
